@@ -1,10 +1,10 @@
 :root {
 
 
-  --safety-orange: hsl(189, 100%, 59%);
+  --safety-orange: hsl(167, 64%, 35%);
   --lavender-gray: hsl(230, 19%, 81%);
-  --persian-rose: hsl(155, 100%, 50%);
-  --red-crayola: hsl(189, 100%, 59%);
+  --persian-rose: hsl(194, 66%, 41%);
+  --red-crayola: hsl(189, 86%, 33%);
   --eerie-black: hsl(240, 6%, 10%);
   --light-gray: hsl(0, 0%, 80%);
   --cultured-2: hsl(210, 60%, 98%);
@@ -13,8 +13,8 @@
   --cultured: hsl(0, 0%, 93%);
   --black_10: hsla(0, 0%, 0%, 0.1);
   --black_5: hsla(0, 0%, 0%, 0.05);
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 14%, 98%);
+  --white-1: hsl(0, 39%, 95%);
+  --white-2: hsl(0, 3%, 85%);
   --black: hsl(0, 0%, 0%);
 
   /**
@@ -235,9 +235,9 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--white-1);
+  background-color: var(--white-2);
   padding-block: 15px;
-  border-block-end: 1px solid var(--cultured);
+  /* border-block-end: 1px solid var(--cultured); */
   z-index: 4;
   transition: var(--transition-1);
 }
@@ -269,7 +269,8 @@ body {
 .nav-toggle-btn.active .close { display: block; }
 
 .navbar {
-  background-color: var(--white-1);
+  /* background-color: var(--white-1); */
+  background-color: #535353;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -323,6 +324,7 @@ body {
 .hero {
   padding-block-start: calc(var(--section-padding) + 50px);
   text-align: center;
+  /* background-color: #333; */
 }
 
 .hero-content { margin-block-end: 30px; }
