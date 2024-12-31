@@ -269,8 +269,7 @@ body {
 .nav-toggle-btn.active .close { display: block; }
 
 .navbar {
-  /* background-color: var(--white-1); */
-  background-color: #535353;
+  background-color: var(--white-1);
   position: absolute;
   top: 100%;
   left: 50%;
